@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/animalsTextView"
+                style="@style/headerTextStyle"
+                android:text="Animals"
+                android:gravity="center"
+                android:background="@drawable/main_background"/>
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/birdsTextView"
+                style="@style/headerTextStyle"
+                android:text="Birds"
+                android:background="@drawable/main_background"
+                android:gravity="center"/>
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/colorsTextView"
+                style="@style/headerTextStyle"
+                android:text="Colors"
+                android:gravity="center"
+                android:background="@drawable/main_background"/>
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/familyMembersTextView"
+                style="@style/headerTextStyle"
+                android:background="@drawable/main_background"
+                android:text="Family Members"
+                android:gravity="center"/>
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/fruitsTextView"
+                style="@style/headerTextStyle"
+                android:background="@drawable/main_background"
+                android:text="Fruits"
+                android:gravity="center"/>
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/greetingsTextView"
+                style="@style/headerTextStyle"
+                android:background="@drawable/main_background"
+                android:text="Greetings"
+                android:gravity="center"/>
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/monthsTextView"
+                style="@style/headerTextStyle"
+                android:background="@drawable/main_background"
+                android:text="Months"
+                android:gravity="center"/>
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/numbersTextView"
+                style="@style/headerTextStyle"
+                android:background="@drawable/main_background"
+                android:text="Numbers"
+                android:gravity="center"/>
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/phrasesTextView"
+                style="@style/headerTextStyle"
+                android:background="@drawable/main_background"
+                android:text="Phrases"
+                android:gravity="center"/>
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/subjectsTextView"
+                style="@style/headerTextStyle"
+                android:background="@drawable/main_background"
+                android:text="Subjects"
+                android:gravity="center"/>
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/vegetablesTextView"
+                style="@style/headerTextStyle"
+                android:background="@drawable/main_background"
+                android:text="vegetables"
+                android:gravity="center"/>
+
+        </FrameLayout>
+
+        
+    </LinearLayout>
+
+
+</ScrollView>
